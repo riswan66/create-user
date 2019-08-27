@@ -1,4 +1,4 @@
 ---
-- hosts: all
+- hosts: rhel 7.5
   roles:
    - create-user
