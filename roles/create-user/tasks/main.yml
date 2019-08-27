@@ -4,4 +4,4 @@
    comment: "{{comment}}"
    shell: /bin/bash
    groups: wheel
-   home: /home/"{{name}}"
+   home: /home/{{name}}
