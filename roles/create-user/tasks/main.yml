@@ -1,0 +1,7 @@
+- name: Create a new user
+  user:
+   name: "{{name}}"
+   comment: "{{comment}}"
+   shell: /bin/bash
+   groups: wheel
+   home: /home/"{{name}}"
